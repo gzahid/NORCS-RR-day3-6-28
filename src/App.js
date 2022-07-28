@@ -5,6 +5,7 @@ function App() {
   let [name, setName] = useState("Hana");
   useEffect(() => {
     document.title = `Hello, ${name}`;
+    
   });
   return (
     <div className="App">
